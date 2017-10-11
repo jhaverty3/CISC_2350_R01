@@ -1,0 +1,17 @@
+/*Thid style page is linked to every page on the website for uniformity*/
+nav {color: green}
+
+h1 { color: green }
+
+h3 {color: green}
+
+h4 {color: green}
+
+p{color: blue}
+
+li{color: blue}
+
+q{color: blue}
+/*I used futura because it looked the coolest to me of all the fonts. It was futuristic and my page is about a futurisitc product.*/
+body{background-color: lightblue;
+	font-family: Futura, Charcoal, sans-serif}
