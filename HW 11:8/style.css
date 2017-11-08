@@ -1,0 +1,29 @@
+.runbutton {
+	cursor: pointer;
+	width: 300px;
+	border: 1px solid black;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 12px ;
+	padding-top: 2px ;
+	padding-bottom: 4px ;
+	color: white ;
+	background-color: darkgreen ;
+	font: 14px "Open Sans", "Arial", sans-serif;
+
+}
+
+
+@keyframes colorchange {
+	0% {background-color: yellow}
+	100% {background-color: blue}
+}
+
+.box{ width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	 }
+
+.changing{
+	animation: colorchange 2s;
+}
