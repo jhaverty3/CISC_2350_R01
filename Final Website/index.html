@@ -3,7 +3,32 @@
 <head>
 	<title>Data Mining In Healthcare</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript">
+
+// decalre variables
+var btn1 = document.getElementById("btn1");
+var btn2 = document.getElementById("btn2");
+var btn3 = document.getElementById("btn3");
+var body = document.getElementsByTagName[0];
+
+btn1.addEventListener("click",function(){
+alert("Home button was clicked!");
+body.style.backgroundColor = "green";
+});
+
+btn2.addEventListener("click",function(){
+	alert("Data sources was clicked!");
+	body.style.backgroundColor = "black";
+});
+
+btn3.addEventListener("click",function(){
+  alert("Preprocessing was clicked!");
+  body.style.backgroundColor = "orange";
+});
+
+
+
+	</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <div id="container">
@@ -18,12 +43,18 @@
 			<li><a class="selected" href="index.html">Home</a></li>
 			<li><a href="datasources.html">Data Sources</a></li>
 			<li><a href="preproccessing.html">Preproccessing</a></li>
-			<li><a href="methods.html">Data Mining Methods</a></li>
-			<li><a href="applications.html">Applications</a></li>
-			<li><a href="the_future.html">The Future</a></li>
+			<li><a href="methods.html" id="btn4">Data Mining Methods</a></li>
+			<li><a href="applications.html" id="btn5">Applications</a></li>
+			<li><a href="the_future.html" id="btn6">The Future</a></li>
 		</ul>
 		</nav>
 	</div>
+
+	<button type="button" id="btn1"> Btn1 </button>
+	<button id="btn2"> Btn2 </button>
+	<button id="btn3"> Btn3 </button> 
+
+
 
 <hr>
 
@@ -65,5 +96,7 @@
 
 </div>
 </div>
+
+
 
 </html>
